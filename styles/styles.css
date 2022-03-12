@@ -1,0 +1,7 @@
+#hero {
+  height: 800px;
+  background-image: url(../images/places/ocean.jpg);
+  /* we can add a background image directly from css. */
+  background-position: center;
+  background-size: cover;
+}
