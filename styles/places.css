@@ -1,5 +1,6 @@
 body {
   background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+  color: rgb(68, 68, 68);
 }
 
 header {
@@ -9,7 +10,7 @@ header {
 }
 
 main ul {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -21,6 +22,7 @@ main li {
   /* overflow: visible; */
   overflow: hidden;
   /* This makes also the corners of the images of the card round. */
+  width: 500px;
 }
 
 main li img {
@@ -30,5 +32,23 @@ main li img {
 }
 
 .item-content {
-    padding: 24px;
+  padding: 24px;
+  display: flex;  
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.actions {
+  text-align: right;
+}
+
+.actions a {
+  text-decoration: none;
+  padding: 6px;
+  color: rgb(22, 211, 228);
+  border-radius: 5px;
+}
+
+.actions a:hover {
+  background-color: rgb(235, 253, 255);
 }
